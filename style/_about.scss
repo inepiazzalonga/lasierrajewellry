@@ -1,0 +1,59 @@
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Playfair Display', serif;
+    }
+    p{
+        width: 60%;
+        text-align: center;
+        padding: 1em;
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+.designer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+    font-family: 'Playfair Display', serif;
+    img{
+        width: 40%;
+    }
+    .story{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3em;
+        h5{
+            font-size: 20px;
+        }
+        p{
+            padding: 2em;
+            text-align: center;
+        }
+    }
+}
+
+.world{
+    @extend .designer;
+    .ourWorld{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h5{
+            font-size: 20px;
+        }
+        p{
+            padding: 2em;
+            text-align: center;
+        }
+
+    }
+}
