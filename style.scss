@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@200&family=Raleway:wght@200&display=swap');
+
+header {
+    background-color: white;
+    height: max-content;
+    padding: 0.1em;
+
+    nav {
+        justify-content: flex-start;
+
+        ul {
+            text-align: end;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-right: 2em;
+
+            img {
+                justify-content: flex-start;
+                margin-right: 5em;
+                margin-top: 1em;
+            }
+
+            li {
+                display: inline-block;
+                margin-top: 1.5em;
+
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    justify-content: space-around;
+                    font-family: 'Playfair Display', serif;
+                    color: #b78275;
+                }
+
+            }
+        }
+
+        nav:hover {
+            background-color: white;
+            transition-duration: 2s;
+        }
+    }
+
+}
+
+
+// h1{
+//     font-size: 44px;
+//     text-align: end;  
+//     font-family: 'Playfair Display', serif;
+//     position: absolute;
+//     margin-top: 7em;
+//     margin-left: 1em;
+//     color: #b78275;
+// }
+
+
+.index1 {
+    height: 700px;
+    background-image: url(./fotos/MG_4952_1400x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1em;
+    margin-top: 1em;
+
+    .indexIzq {
+        width: 50%;
+        height: 35em;
+        background-image: url(./fotos/modelo.jpg);
+        background-size: cover;
+        background-position: top;
+
+        a {
+            width: 10em;
+            text-align: center;
+            text-decoration: none;
+            color: #b78275;
+            font-family: 'Playfair Display', serif;
+            background-color: whitesmoke;
+            padding: 0.5em;
+            position: absolute;
+            margin-top: 33%;
+            margin-left: 16%;
+        }
+
+    }
+
+    .indexDer {
+        @extend .indexIzq;
+        background-image: url(./fotos/pulseras.jpg);
+        background-position: center;
+
+        a {
+            margin-left: 20%;
+        }
+    }
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 650px;
+
+    .aboutDer {
+        width: 50%;
+        background-color: rgb(250, 207, 214);
+        padding: 1em;
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            color: #b78275;
+        }
+
+        p {
+            font-family: 'Playfair Display', serif;
+            background-color: plum;
+            text-align: justify;
+            padding: 2em;
+        }
+    }
+
+    .aboutIzq {
+        width: 50%;
+        background-color: rgb(238, 190, 238);
+    }
+}
+
+.shop {
+    h2 {
+        text-align: center;
+        margin-top: 1em;
+        font-size: 25px;
+        color: #b78275;
+    }
+    a{
+        padding: 2em;
+        color: #b78275;
+        text-decoration: none;
+        text-align: center;
+        font-size: 22px;
+        h4{
+            margin-left: 20em;
+            text-align: center;
+            background-color: ivory;
+            border-style: solid;
+            border-width: 1px;
+            width: 30%;
+            padding: 0.5em;
+            h4:hover{
+                background-color: lemonchiffon;
+            }
+        }
+    }
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1em;
+
+    .product1 {
+        width: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        color: #b78275;
+        font-size: 18px;
+    }
+
+    .product2 {
+        @extend .product1;
+    }
+
+    .product3 {
+        @extend .product1;
+    }
+
+    .product4 {
+        @extend .product1;
+    }
+}
+
+footer{
+    height: 200px;
+    background-color: #b78275;
+    color: lemonchiffon;
+    h5{
+        padding: 5em;
+        padding-top: 3em;
+    }
+}

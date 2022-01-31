@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@200&family=Raleway:wght@200&display=swap");
+header {
+  background-color: white;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 0.1em;
+}
+
+header nav {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+header nav ul {
+  text-align: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 2em;
+}
+
+header nav ul img {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-right: 5em;
+  margin-top: 1em;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-top: 1.5em;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: 'Playfair Display', serif;
+  color: #b78275;
+}
+
+header nav nav:hover {
+  background-color: white;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.index1 {
+  height: 700px;
+  background-image: url(./fotos/MG_4952_1400x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.cards .indexIzq, .cards .indexDer {
+  width: 50%;
+  height: 35em;
+  background-image: url(./fotos/modelo.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.cards .indexIzq a, .cards .indexDer a {
+  width: 10em;
+  text-align: center;
+  text-decoration: none;
+  color: #b78275;
+  font-family: 'Playfair Display', serif;
+  background-color: whitesmoke;
+  padding: 0.5em;
+  position: absolute;
+  margin-top: 33%;
+  margin-left: 16%;
+}
+
+.cards .indexDer {
+  background-image: url(./fotos/pulseras.jpg);
+  background-position: center;
+}
+
+.cards .indexDer a {
+  margin-left: 20%;
+}
+
+.aboutUs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 650px;
+}
+
+.aboutUs .aboutDer {
+  width: 50%;
+  background-color: #facfd6;
+  padding: 1em;
+}
+
+.aboutUs .aboutDer h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  color: #b78275;
+}
+
+.aboutUs .aboutDer p {
+  font-family: 'Playfair Display', serif;
+  background-color: plum;
+  text-align: justify;
+  padding: 2em;
+}
+
+.aboutUs .aboutIzq {
+  width: 50%;
+  background-color: #eebeee;
+}
+
+.shop h2 {
+  text-align: center;
+  margin-top: 1em;
+  font-size: 25px;
+  color: #b78275;
+}
+
+.shop a {
+  padding: 2em;
+  color: #b78275;
+  text-decoration: none;
+  text-align: center;
+  font-size: 22px;
+}
+
+.shop a h4 {
+  margin-left: 20em;
+  text-align: center;
+  background-color: ivory;
+  border-style: solid;
+  border-width: 1px;
+  width: 30%;
+  padding: 0.5em;
+}
+
+.shop a h4 h4:hover {
+  background-color: lemonchiffon;
+}
+
+.products {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 1em;
+}
+
+.products .product1, .products .product2, .products .product3, .products .product4 {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+  color: #b78275;
+  font-size: 18px;
+}
+
+footer {
+  height: 200px;
+  background-color: #b78275;
+  color: lemonchiffon;
+}
+
+footer h5 {
+  padding: 5em;
+  padding-top: 3em;
+}
+/*# sourceMappingURL=style.css.map */
